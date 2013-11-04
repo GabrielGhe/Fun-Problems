@@ -8,5 +8,4 @@ public class Q2IntToBinaryString {
 		String binString = Integer.toBinaryString(i);
 		System.out.println(binString);
 	}
-
 }
