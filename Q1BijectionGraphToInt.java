@@ -82,7 +82,7 @@ public class Q1BijectionGraphToInt {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println(Q1BijectionGraphToInt.findThatInt(-1, 1));
+		System.out.println(findThatInt(-1, 1));
 	}
 
 }
