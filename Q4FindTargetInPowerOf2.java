@@ -6,11 +6,10 @@ public class Q4FindTargetInPowerOf2 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Q4FindTargetInPowerOf2 huh = new Q4FindTargetInPowerOf2();
-		System.out.println(huh.findThisThing(42));
+		System.out.println(findThisThing(42));
 	}
 	
-	public int findThisThing(int target){
+	public static int findThisThing(int target){
 		//initializing junk...
 		Pattern pattern = Pattern.compile("" + target);
 		Matcher m = null;
