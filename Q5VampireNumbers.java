@@ -3,14 +3,13 @@ import java.util.ArrayList;
 public class Q5VampireNumbers {
 
 	public static void main(String[] args) {
-		Q5VampireNumbers obj = new Q5VampireNumbers();
-		ArrayList<String> x = obj.findTheVampNums(4);
+		ArrayList<String> x = findTheVampNums(4);
 		
 		for(String combo: x)
 			System.out.println(combo);
 	}
 	
-	public ArrayList<String> findTheVampNums(int vNumLength){
+	public static ArrayList<String> findTheVampNums(int vNumLength){
 		ArrayList<String> results = new ArrayList<String>();
 		
 		if(vNumLength % 2 == 1){
