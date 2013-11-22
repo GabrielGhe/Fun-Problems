@@ -29,7 +29,7 @@ public class Q5VampireNumbers {
 		return results;
 	}
 	
-	public boolean isItVampNum(int first, int second){
+	public static boolean isItVampNum(int first, int second){
 		ArrayList<Integer> dic = new ArrayList<Integer>();
 		int vamp = first * second;
 		while(first != 0){
